@@ -20,7 +20,7 @@ void reset();
 void intro()
 {
 	int err=1;
-	printf("WELCOME TO SMARTBOT PROJECT by KESHAV NATH 2K20/A9/47\n\n");
+	printf("WELCOME TO SMARTBOT PROJECT by KESHAV NATH and VATSAL MITTAL\n\n");
 	printf("I have created a BOT for Tic Tac Toe / Knots and Crosses / XO\n");
 	printf("It is nearly impossible to defeat!\n\n");
 	char ch;
@@ -44,7 +44,7 @@ void intro()
 		}
 		else printf("INVALID SELECTION\n");
 	}	
-	printf("Press D to play against a dumb bot, or anything else to play against my SmartBot!\n");
+	printf("Press D to play against a dumb bot, or anything else to play against the SmartBot!\n");
 	ch = getch();
 	printf("%c\n",ch);
 	if (ch!='d')
